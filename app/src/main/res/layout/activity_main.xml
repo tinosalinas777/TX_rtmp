@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mm"
+    android:gravity="center"
+    android:orientation="vertical">
+
+  <TextView
+      android:id="@+id/tv_version"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="@dimen/grid_2"
+      android:layout_marginTop="@dimen/grid_2"
+      android:layout_marginRight="@dimen/grid_2"
+      android:textColor="@color/appColor"
+      android:textSize="12sp" />
+
+  <TextView
+      android:id="@+id/tv_select"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="@dimen/grid_2"
+      android:layout_marginTop="@dimen/grid_2"
+      android:layout_marginRight="@dimen/grid_2"
+      android:text="Div. Central Operativa de Video"
+      android:textColor="@android:color/holo_orange_light"
+      android:textSize="22sp" />
+
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="108dp" />
+
+  <ImageView
+      android:id="@+id/imageView3"
+      android:layout_width="match_parent"
+      android:layout_height="233dp"
+      app:srcCompat="@drawable/com" />
+
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="78dp" />
+
+  <Button
+      android:id="@+id/btn_start_activity"
+      android:layout_width="260dp"
+      android:layout_height="70dp"
+      android:text="INICIAR" />
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="247dp"
+        android:layout_height="38dp"
+        android:text="Desarrollado por oficina tecnica COV"
+        android:textColor="@android:color/holo_orange_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+  </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
